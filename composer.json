@@ -1,0 +1,22 @@
+{
+    "name": "deviantintegral/symfony-deserialize-xml-collection",
+    "description": "Example for a Symfony support request",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Andrew Berry",
+            "email": "deviantintegral@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/serializer": "^4.3",
+        "symfony/property-info": "^4.3",
+        "symfony/property-access": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deviantintegral\\SymfonyDeserializeXmlCollection\\": "src/"
+        }
+    }
+}
